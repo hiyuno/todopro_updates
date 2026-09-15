@@ -2,62 +2,80 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-        <item>
-            <title>Version 2.0.2</title>
-            <description><![CDATA[<h3>Added</h3>
-<ul>
-<li>Added TDPB v1 portable backups: a password-encrypted, authenticated, bounded backup format with preview-before-merge. Portable backups combine business records into the active library and exclude credentials, Keychain material, paths, sandbox bookmarks, Calendar state, and other device-local transport state.</li>
-<li>Added the local CSV time-import foundation: bounded RFC-4180 parsing, explicit UUID mapping, Chicago/ISO-8601 timestamp validation, encrypted SQLite v8 import ledgers, HMAC deduplication, and a single transaction that commits closed imported sessions with their duration projection. The original 197-row fixture is still pending.</li>
-<li>Added Increment 4 fail-closed database sync protocol scaffolding: encrypted v6 SQLite sync journal/outbox/inbox/cursor tables, an actor coordinator, and an unavailable-by-default transport that makes no CloudKit or network calls.</li>
-<li>Added Settings → Sync Issues for the local sync journal. It clearly reports unavailable transport and lets a person resolve encrypted version conflicts or choose one of two overlapping time sessions; neither action enables CloudKit.</li>
-<li>Added the first local-database increment: encrypted SQLite persistence with transactional revisions, deterministic local client/project identities, idempotent legacy-state migration, ordered app-state saves, and compatibility for existing backup APIs and legacy stage behavior.</li>
-<li>Added the second local-database increment: an encrypted, durable local time-session ledger with exact start/stop timestamps, task/subtask/project/stage snapshots, work types, provenance, idempotent commands, and atomic task switches. Timer recording now commits locally before any Toggl request, so an offline or failed Toggl start never loses tracked time.</li>
-<li>Added a durable encrypted Toggl time outbox that is committed in the same SQLite transaction as each local start, stop, or switch projection. After a lost Toggl response, relaunch reconciliation observes the remote entry and completes the queued intent without sending a duplicate request.</li>
-<li>Subtask timer switches and checklist-driven subtask advances now commit the stop intent for the prior entry and the start intent for the new subtask alongside the ledger split and task snapshot. A relaunch can reconcile either side without losing or duplicating a remote transition.</li>
-<li>Keyboard navigation for the board&#x27;s inline subtask editor&#x27;s Tags and Stage popovers: arrow keys move a highlight through the list, Return selects/toggles the highlighted item, and the search field is now focused automatically when either popover opens (previously you had to click into the filter field before arrow keys did anything). The list also auto-scrolls to keep the highlighted row in view as you navigate past the visible area.</li>
-</ul>
-<h3>Fixed</h3>
-<ul>
-<li>SyncFinderAgent no longer warns that `FavoritesSidebarService` is deprecated. That attribute was documenting Apple&#x27;s deprecated-without-replacement `LSSharedFileList` API on the wrapper callers still have to use.</li>
-<li>A tombstoned time session now removes any still-open overlap that references it in the same database transaction, so relaunch cannot present an unresolvable stale decision.</li>
-<li>The tags picker (task editor, multi-task editor&#x27;s subtasks, and the board&#x27;s inline subtask editor) could show only a single tag the first time it was opened, requiring you to close and reopen it to see the full list. The Toggl tags fetch does complete correctly in the background, but SwiftUI&#x27;s `.popover` wasn&#x27;t reliably re-rendering its content once that fetch resolved while the popover was already open — it only picked up the fresh data on the next presentation. Fixed by keying each popover&#x27;s content on the fetched tag count, forcing SwiftUI to redraw it as soon as the data lands.</li>
-</ul>]]></description>
-            <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
-            <pubDate>Tue, 15 Sep 2026 08:34:06 +0000</pubDate>
-            <enclosure
-                url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.2/ToDoPro-2.0.2.dmg"
-                sparkle:version="30"
-                sparkle:shortVersionString="2.0.2"
-                type="application/octet-stream"
-                sparkle:edSignature="h+1Jj02NuFw6kPbABB/z+1wF50BBNv9yTuZVNxqlaOjt/wZwmSoff9HR1Kol3wPP4cwJJEQRyVuD16wTkYFOBg==" length="14163476" />
-        </item>
-        <item>
-            <title>Version 2.0.1</title>
-            <description><![CDATA[
-                <h3>ToDoPro 2.0.1</h3>
-                <p>Reliable signed Sparkle updates, including the new Check for Updates command.</p>
-            ]]></description>
-            <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
-            <pubDate>Mon, 15 Sep 2026 08:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.1/ToDoPro-2.0.1.dmg" sparkle:version="29" sparkle:shortVersionString="2.0.1" type="application/octet-stream" sparkle:edSignature="0CMQlj2KVUa5UQRBZO5F4IT1O3L7consZcUTB7kP7hr0X3LZkL/GT8uxSHbNfqB8N2ECGUTHfbrKjlAQNnzEAA==" length="14157922" />
-        </item>
     <title>ToDoPro Updates</title>
     <link>https://github.com/hiyuno/todopro_updates/releases</link>
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.3</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added TDPB v1 portable backups: a password-encrypted, authenticated, bounded backup format with preview-before-merge. Portable backups combine business records into the active library and exclude credentials, Keychain material, paths, sandbox bookmarks, Calendar state, and other device-local transport state.&lt;/li&gt;
+&lt;li&gt;Added the local CSV time-import foundation: bounded RFC-4180 parsing, explicit UUID mapping, Chicago/ISO-8601 timestamp validation, encrypted SQLite v8 import ledgers, HMAC deduplication, and a single transaction that commits closed imported sessions with their duration projection. The original 197-row fixture is still pending.&lt;/li&gt;
+&lt;li&gt;Added Increment 4 fail-closed database sync protocol scaffolding: encrypted v6 SQLite sync journal/outbox/inbox/cursor tables, an actor coordinator, and an unavailable-by-default transport that makes no CloudKit or network calls.&lt;/li&gt;
+&lt;li&gt;Added Settings → Sync Issues for the local sync journal. It clearly reports unavailable transport and lets a person resolve encrypted version conflicts or choose one of two overlapping time sessions; neither action enables CloudKit.&lt;/li&gt;
+&lt;li&gt;Added the first local-database increment: encrypted SQLite persistence with transactional revisions, deterministic local client/project identities, idempotent legacy-state migration, ordered app-state saves, and compatibility for existing backup APIs and legacy stage behavior.&lt;/li&gt;
+&lt;li&gt;Added the second local-database increment: an encrypted, durable local time-session ledger with exact start/stop timestamps, task/subtask/project/stage snapshots, work types, provenance, idempotent commands, and atomic task switches. Timer recording now commits locally before any Toggl request, so an offline or failed Toggl start never loses tracked time.&lt;/li&gt;
+&lt;li&gt;Added a durable encrypted Toggl time outbox that is committed in the same SQLite transaction as each local start, stop, or switch projection. After a lost Toggl response, relaunch reconciliation observes the remote entry and completes the queued intent without sending a duplicate request.&lt;/li&gt;
+&lt;li&gt;Subtask timer switches and checklist-driven subtask advances now commit the stop intent for the prior entry and the start intent for the new subtask alongside the ledger split and task snapshot. A relaunch can reconcile either side without losing or duplicating a remote transition.&lt;/li&gt;
+&lt;li&gt;Keyboard navigation for the board&amp;#x27;s inline subtask editor&amp;#x27;s Tags and Stage popovers: arrow keys move a highlight through the list, Return selects/toggles the highlighted item, and the search field is now focused automatically when either popover opens (previously you had to click into the filter field before arrow keys did anything). The list also auto-scrolls to keep the highlighted row in view as you navigate past the visible area.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;SyncFinderAgent no longer warns that `FavoritesSidebarService` is deprecated. That attribute was documenting Apple&amp;#x27;s deprecated-without-replacement `LSSharedFileList` API on the wrapper callers still have to use.&lt;/li&gt;
+&lt;li&gt;A tombstoned time session now removes any still-open overlap that references it in the same database transaction, so relaunch cannot present an unresolvable stale decision.&lt;/li&gt;
+&lt;li&gt;The tags picker (task editor, multi-task editor&amp;#x27;s subtasks, and the board&amp;#x27;s inline subtask editor) could show only a single tag the first time it was opened, requiring you to close and reopen it to see the full list. The Toggl tags fetch does complete correctly in the background, but SwiftUI&amp;#x27;s `.popover` wasn&amp;#x27;t reliably re-rendering its content once that fetch resolved while the popover was already open — it only picked up the fresh data on the next presentation. Fixed by keying each popover&amp;#x27;s content on the fetched tag count, forcing SwiftUI to redraw it as soon as the data lands.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Tue, 15 Sep 2026 14:15:46 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.3/ToDoPro-2.0.3.dmg" sparkle:version="31" sparkle:shortVersionString="2.0.3" type="application/octet-stream" sparkle:edSignature="2GxZJOZhleJ4EtZdTVRo2gwA+OCMKx4fxGCnRbcN38980FfjWuNSlPvYhibXxRDyHmkoNI6RURr1VSPRLtwHAA==" length="14163512"></enclosure>
+    </item>
+    <item>
+      <title>Version 2.0.2</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added TDPB v1 portable backups: a password-encrypted, authenticated, bounded backup format with preview-before-merge. Portable backups combine business records into the active library and exclude credentials, Keychain material, paths, sandbox bookmarks, Calendar state, and other device-local transport state.&lt;/li&gt;
+&lt;li&gt;Added the local CSV time-import foundation: bounded RFC-4180 parsing, explicit UUID mapping, Chicago/ISO-8601 timestamp validation, encrypted SQLite v8 import ledgers, HMAC deduplication, and a single transaction that commits closed imported sessions with their duration projection. The original 197-row fixture is still pending.&lt;/li&gt;
+&lt;li&gt;Added Increment 4 fail-closed database sync protocol scaffolding: encrypted v6 SQLite sync journal/outbox/inbox/cursor tables, an actor coordinator, and an unavailable-by-default transport that makes no CloudKit or network calls.&lt;/li&gt;
+&lt;li&gt;Added Settings → Sync Issues for the local sync journal. It clearly reports unavailable transport and lets a person resolve encrypted version conflicts or choose one of two overlapping time sessions; neither action enables CloudKit.&lt;/li&gt;
+&lt;li&gt;Added the first local-database increment: encrypted SQLite persistence with transactional revisions, deterministic local client/project identities, idempotent legacy-state migration, ordered app-state saves, and compatibility for existing backup APIs and legacy stage behavior.&lt;/li&gt;
+&lt;li&gt;Added the second local-database increment: an encrypted, durable local time-session ledger with exact start/stop timestamps, task/subtask/project/stage snapshots, work types, provenance, idempotent commands, and atomic task switches. Timer recording now commits locally before any Toggl request, so an offline or failed Toggl start never loses tracked time.&lt;/li&gt;
+&lt;li&gt;Added a durable encrypted Toggl time outbox that is committed in the same SQLite transaction as each local start, stop, or switch projection. After a lost Toggl response, relaunch reconciliation observes the remote entry and completes the queued intent without sending a duplicate request.&lt;/li&gt;
+&lt;li&gt;Subtask timer switches and checklist-driven subtask advances now commit the stop intent for the prior entry and the start intent for the new subtask alongside the ledger split and task snapshot. A relaunch can reconcile either side without losing or duplicating a remote transition.&lt;/li&gt;
+&lt;li&gt;Keyboard navigation for the board&amp;#x27;s inline subtask editor&amp;#x27;s Tags and Stage popovers: arrow keys move a highlight through the list, Return selects/toggles the highlighted item, and the search field is now focused automatically when either popover opens (previously you had to click into the filter field before arrow keys did anything). The list also auto-scrolls to keep the highlighted row in view as you navigate past the visible area.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;SyncFinderAgent no longer warns that `FavoritesSidebarService` is deprecated. That attribute was documenting Apple&amp;#x27;s deprecated-without-replacement `LSSharedFileList` API on the wrapper callers still have to use.&lt;/li&gt;
+&lt;li&gt;A tombstoned time session now removes any still-open overlap that references it in the same database transaction, so relaunch cannot present an unresolvable stale decision.&lt;/li&gt;
+&lt;li&gt;The tags picker (task editor, multi-task editor&amp;#x27;s subtasks, and the board&amp;#x27;s inline subtask editor) could show only a single tag the first time it was opened, requiring you to close and reopen it to see the full list. The Toggl tags fetch does complete correctly in the background, but SwiftUI&amp;#x27;s `.popover` wasn&amp;#x27;t reliably re-rendering its content once that fetch resolved while the popover was already open — it only picked up the fresh data on the next presentation. Fixed by keying each popover&amp;#x27;s content on the fetched tag count, forcing SwiftUI to redraw it as soon as the data lands.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Tue, 15 Sep 2026 08:34:06 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.2/ToDoPro-2.0.2.dmg" sparkle:version="30" sparkle:shortVersionString="2.0.2" type="application/octet-stream" sparkle:edSignature="h+1Jj02NuFw6kPbABB/z+1wF50BBNv9yTuZVNxqlaOjt/wZwmSoff9HR1Kol3wPP4cwJJEQRyVuD16wTkYFOBg==" length="14163476"></enclosure>
+    </item>
+    <item>
+      <title>Version 2.0.1</title>
+      <description>
+                &lt;h3&gt;ToDoPro 2.0.1&lt;/h3&gt;
+                &lt;p&gt;Reliable signed Sparkle updates, including the new Check for Updates command.&lt;/p&gt;
+            </description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Mon, 15 Sep 2026 08:00:00 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.1/ToDoPro-2.0.1.dmg" sparkle:version="29" sparkle:shortVersionString="2.0.1" type="application/octet-stream" sparkle:edSignature="0CMQlj2KVUa5UQRBZO5F4IT1O3L7consZcUTB7kP7hr0X3LZkL/GT8uxSHbNfqB8N2ECGUTHfbrKjlAQNnzEAA==" length="14157922"></enclosure>
+    </item>
+    <item>
       <title>Version 2</title>
-      <description><![CDATA[
-        <h3>ToDoPro 2</h3>
-        <p>Encrypted local database, portable encrypted backups, resilient time tracking, and the foundation for secure sync.</p>
-      ]]></description>
+      <description>
+        &lt;h3&gt;ToDoPro 2&lt;/h3&gt;
+        &lt;p&gt;Encrypted local database, portable encrypted backups, resilient time tracking, and the foundation for secure sync.&lt;/p&gt;
+      </description>
       <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
       <pubDate>Mon, 15 Sep 2026 04:45:00 +0000</pubDate>
       <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2/ToDoPro-2.dmg" sparkle:version="28" sparkle:shortVersionString="2" type="application/octet-stream" sparkle:edSignature="Y9naJO/WTNR1KgmSkLzwLw4TPldxcmVQkjD1/czrFrm5/uxhqLx65PuZ3np4mvELKCM7tnNHHDKMhPuYnFEtDQ==" length="14070140"></enclosure>
     </item>
   </channel>
-</rss>
-<!-- sparkle-signatures:
-edSignature: wioPLfLMuTVk1mLUiuQBNB94NByqes/zZ6tzsD0e0H3tlaeXcQmAjBs+qqYnpCFDH4j2tZY8CJJm/hVgolMTDQ==
-length: 6655
+</rss><!-- sparkle-signatures:
+edSignature: sR/bFnVFkPXGm2W51vfspghEEFqR+1SDS7ALIzRjRANNAzER5MuzgTOcJpy89eByT4r2WrNLRoP2h0XYZ+ePDw==
+length: 11459
 -->
