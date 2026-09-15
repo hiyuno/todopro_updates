@@ -2,6 +2,16 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
+        <item>
+            <title>Version 2.0.1</title>
+            <description><![CDATA[
+                <h3>ToDoPro 2.0.1</h3>
+                <p>Reliable signed Sparkle updates, including the new Check for Updates command.</p>
+            ]]></description>
+            <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+            <pubDate>Mon, 15 Sep 2026 08:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.1/ToDoPro-2.0.1.dmg" sparkle:version="29" sparkle:shortVersionString="2.0.1" type="application/octet-stream" sparkle:edSignature="0CMQlj2KVUa5UQRBZO5F4IT1O3L7consZcUTB7kP7hr0X3LZkL/GT8uxSHbNfqB8N2ECGUTHfbrKjlAQNnzEAA==" length="14157922" />
+        </item>
     <title>ToDoPro Updates</title>
     <link>https://github.com/hiyuno/todopro_updates/releases</link>
     <description>ToDoPro macOS updates</description>
@@ -17,7 +27,8 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
       <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2/ToDoPro-2.dmg" sparkle:version="28" sparkle:shortVersionString="2" type="application/octet-stream" sparkle:edSignature="Y9naJO/WTNR1KgmSkLzwLw4TPldxcmVQkjD1/czrFrm5/uxhqLx65PuZ3np4mvELKCM7tnNHHDKMhPuYnFEtDQ==" length="14070140"></enclosure>
     </item>
   </channel>
-</rss><!-- sparkle-signatures:
-edSignature: +kqHFlmQY75sDJZrclsHOTa87GdzO6irCR5TbltU5MoMzUKO0cnsNS3NUgBPJGbMfsSfz5/mq7yTcaPkXdtKBQ==
-length: 1307
+</rss>
+<!-- sparkle-signatures:
+edSignature: gdu3rT58ehdJK4A+WNQmp6ebDLIDgrf5gu65yxjB50GB7TqttLL90VGGohOi5c4IuD8pafJMZewnRnRMJDZ0Dw==
+length: 2054
 -->
