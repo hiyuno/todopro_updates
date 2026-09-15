@@ -5,5 +5,21 @@
     <link>https://github.com/hiyuno/todopro_updates/releases</link>
     <description>ToDoPro macOS updates</description>
     <language>en</language>
+    <item>
+      <title>Version 2</title>
+      <description><![CDATA[
+        <h3>ToDoPro 2</h3>
+        <p>Encrypted local database, portable encrypted backups, resilient time tracking, and the foundation for secure sync.</p>
+      ]]></description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Mon, 15 Sep 2026 04:45:00 +0000</pubDate>
+      <enclosure
+        url="https://github.com/hiyuno/todopro_updates/releases/download/v2/ToDoPro-2.dmg"
+        sparkle:version="28"
+        sparkle:shortVersionString="2"
+        type="application/octet-stream"
+        sparkle:edSignature="Y9naJO/WTNR1KgmSkLzwLw4TPldxcmVQkjD1/czrFrm5/uxhqLx65PuZ3np4mvELKCM7tnNHHDKMhPuYnFEtDQ=="
+        length="14070140" />
+    </item>
   </channel>
 </rss>
