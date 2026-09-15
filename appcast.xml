@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>ToDoPro Updates</title>
     <link>https://github.com/hiyuno/todopro_updates/releases</link>
@@ -13,13 +14,10 @@
       ]]></description>
       <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
       <pubDate>Mon, 15 Sep 2026 04:45:00 +0000</pubDate>
-      <enclosure
-        url="https://github.com/hiyuno/todopro_updates/releases/download/v2/ToDoPro-2.dmg"
-        sparkle:version="28"
-        sparkle:shortVersionString="2"
-        type="application/octet-stream"
-        sparkle:edSignature="Y9naJO/WTNR1KgmSkLzwLw4TPldxcmVQkjD1/czrFrm5/uxhqLx65PuZ3np4mvELKCM7tnNHHDKMhPuYnFEtDQ=="
-        length="14070140" />
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2/ToDoPro-2.dmg" sparkle:version="28" sparkle:shortVersionString="2" type="application/octet-stream" sparkle:edSignature="Y9naJO/WTNR1KgmSkLzwLw4TPldxcmVQkjD1/czrFrm5/uxhqLx65PuZ3np4mvELKCM7tnNHHDKMhPuYnFEtDQ==" length="14070140"></enclosure>
     </item>
   </channel>
-</rss>
+</rss><!-- sparkle-signatures:
+edSignature: +kqHFlmQY75sDJZrclsHOTa87GdzO6irCR5TbltU5MoMzUKO0cnsNS3NUgBPJGbMfsSfz5/mq7yTcaPkXdtKBQ==
+length: 1307
+-->
