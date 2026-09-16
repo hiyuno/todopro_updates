@@ -7,6 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.4</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added TDPB v1 portable backups: a password-encrypted, authenticated, bounded backup format with preview-before-merge. Portable backups combine business records into the active library and exclude credentials, Keychain material, paths, sandbox bookmarks, Calendar state, and other device-local transport state.&lt;/li&gt;
+&lt;li&gt;Added the local CSV time-import foundation: bounded RFC-4180 parsing, explicit UUID mapping, Chicago/ISO-8601 timestamp validation, encrypted SQLite v8 import ledgers, HMAC deduplication, and a single transaction that commits closed imported sessions with their duration projection. The original 197-row fixture is still pending.&lt;/li&gt;
+&lt;li&gt;Added Increment 4 fail-closed database sync protocol scaffolding: encrypted v6 SQLite sync journal/outbox/inbox/cursor tables, an actor coordinator, and an unavailable-by-default transport that makes no CloudKit or network calls.&lt;/li&gt;
+&lt;li&gt;Added Settings → Sync Issues for the local sync journal. It clearly reports unavailable transport and lets a person resolve encrypted version conflicts or choose one of two overlapping time sessions; neither action enables CloudKit.&lt;/li&gt;
+&lt;li&gt;Added the first local-database increment: encrypted SQLite persistence with transactional revisions, deterministic local client/project identities, idempotent legacy-state migration, ordered app-state saves, and compatibility for existing backup APIs and legacy stage behavior.&lt;/li&gt;
+&lt;li&gt;Added the second local-database increment: an encrypted, durable local time-session ledger with exact start/stop timestamps, task/subtask/project/stage snapshots, work types, provenance, idempotent commands, and atomic task switches. Timer recording now commits locally before any Toggl request, so an offline or failed Toggl start never loses tracked time.&lt;/li&gt;
+&lt;li&gt;Added a durable encrypted Toggl time outbox that is committed in the same SQLite transaction as each local start, stop, or switch projection. After a lost Toggl response, relaunch reconciliation observes the remote entry and completes the queued intent without sending a duplicate request.&lt;/li&gt;
+&lt;li&gt;Subtask timer switches and checklist-driven subtask advances now commit the stop intent for the prior entry and the start intent for the new subtask alongside the ledger split and task snapshot. A relaunch can reconcile either side without losing or duplicating a remote transition.&lt;/li&gt;
+&lt;li&gt;Keyboard navigation for the board&amp;#x27;s inline subtask editor&amp;#x27;s Tags and Stage popovers: arrow keys move a highlight through the list, Return selects/toggles the highlighted item, and the search field is now focused automatically when either popover opens (previously you had to click into the filter field before arrow keys did anything). The list also auto-scrolls to keep the highlighted row in view as you navigate past the visible area.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;SyncFinderAgent no longer warns that `FavoritesSidebarService` is deprecated. That attribute was documenting Apple&amp;#x27;s deprecated-without-replacement `LSSharedFileList` API on the wrapper callers still have to use.&lt;/li&gt;
+&lt;li&gt;A tombstoned time session now removes any still-open overlap that references it in the same database transaction, so relaunch cannot present an unresolvable stale decision.&lt;/li&gt;
+&lt;li&gt;The tags picker (task editor, multi-task editor&amp;#x27;s subtasks, and the board&amp;#x27;s inline subtask editor) could show only a single tag the first time it was opened, requiring you to close and reopen it to see the full list. The Toggl tags fetch does complete correctly in the background, but SwiftUI&amp;#x27;s `.popover` wasn&amp;#x27;t reliably re-rendering its content once that fetch resolved while the popover was already open — it only picked up the fresh data on the next presentation. Fixed by keying each popover&amp;#x27;s content on the fetched tag count, forcing SwiftUI to redraw it as soon as the data lands.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Wed, 16 Sep 2026 00:03:26 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.4/ToDoPro-2.0.4.dmg" sparkle:version="32" sparkle:shortVersionString="2.0.4" type="application/octet-stream" sparkle:edSignature="czfKH1yNthep5AM2Qpfe8/gLKnwwcqZzptS02+sN8QEZqpboeUZZlZMaIbjIW8u+NEF21zIjxG/S8xpwqKpqDw==" length="14088228"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.3</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
@@ -76,6 +100,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: sR/bFnVFkPXGm2W51vfspghEEFqR+1SDS7ALIzRjRANNAzER5MuzgTOcJpy89eByT4r2WrNLRoP2h0XYZ+ePDw==
-length: 11459
+edSignature: 93Bu0JCMWCPTCMbQK19EtDbAoEaeVhFUvVwcJissRaPPIqZgXWhEwfzys2QX+H4QyrS9T7ADvN6Wx0YZIRcmAQ==
+length: 16164
 -->
