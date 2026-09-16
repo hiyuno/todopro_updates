@@ -7,6 +7,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.7</title>
+      <description>&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;iCloud Sync Now retries a dropped CloudKit connection (`CKError.networkFailure` / `NSURLErrorNetworkConnectionLost`), uses user-initiated quality of service instead of a discretionary background transfer, pulls smaller journal pages, and shows a connection-interrupted message instead of `CKErrorDomain error 4`.&lt;/li&gt;
+&lt;li&gt;Invalid or zero Estimate Time (`0m`, empty, or unreadable input) now saves as no estimate instead of showing an Error alert.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Wed, 16 Sep 2026 19:27:45 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.7/ToDoPro-2.0.7.dmg" sparkle:version="35" sparkle:shortVersionString="2.0.7" type="application/octet-stream" sparkle:edSignature="meZheJHoTQAM7NBNiwY+nEDq4i/pOOLDyhUd9HW58d64pzBiZXpRet5Hnee8lf/xTST7CL7qydFmXVvGVH1RAQ==" length="14300105"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.6</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
@@ -135,6 +146,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: M+bqZXOrnXttcyBPnTFwn7ZhYquAHw5lNiqdmiV0Tfv3lZ4y9S0XTC/+WhwgEHSQ5e4PgSSL9p/858OmPeg3Cg==
-length: 19965
+edSignature: LZ44biJVxrLS3MSAHykPBO8SVU2HCTR0fz9KoaRQZvLEzwTLcubgcw80vgZBhqknDGoPsjCVkQ5LxB1oSDylBQ==
+length: 21047
 -->
