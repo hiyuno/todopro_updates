@@ -7,6 +7,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.9</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Timer presence now pushes the live interval immediately (interactive CloudKit QoS) and pulls only recent `timeSession` changes (about the last 3 minutes) instead of waiting for a full iCloud journal sync. Fallback poll is 1 second while a timer is visible and 2 seconds otherwise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Wed, 16 Sep 2026 21:56:25 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.9/ToDoPro-2.0.9.dmg" sparkle:version="37" sparkle:shortVersionString="2.0.9" type="application/octet-stream" sparkle:edSignature="RgvQ7K3nfuF+bQAAL/BkuDLftx5CG/rjkBW0KDBIP9eKR8sPlLNDSWiL9KDX7SfpclwQgwN5TLxXIRqIQN5gAw==" length="14363683"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.8</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
@@ -160,6 +172,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: G3YXKnVUlMnZ6B5t9wfw2aqaDc5o2WkQgaF18f5AEQK9qhmM7oyDUe6/VX1g2nqMwuJBtWCoKAk6q4pOFK7yAQ==
-length: 22114
+edSignature: QAqo6LFtNOidZOyT9Trxk5+qSWNwNMzRledA9tQXsgJSAbd/LPRSD8j5RvFeTrxD1z6NKjKLdJvZ/wsW8nXWAg==
+length: 23074
 -->
