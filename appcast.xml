@@ -7,6 +7,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.8</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Running timer presence now syncs across Macs: Play on one machine shows Pause and live elapsed on the other within seconds, and starting a second task while one is already running is blocked.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Elapsed time no longer stays at `00:00:00` after Play/Resume on a task with no previously closed time. The live session seconds are included even when there is no stored total yet.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Wed, 16 Sep 2026 21:10:03 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.8/ToDoPro-2.0.8.dmg" sparkle:version="36" sparkle:shortVersionString="2.0.8" type="application/octet-stream" sparkle:edSignature="kcthqjN29OblFsZon7tcK0G3zrs4W9Utb7bxdiqKpLnioS0DCZ4sCNKcCd/x7v0gAFXlrNv8bXySMYlNibF0Bg==" length="14346661"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.7</title>
       <description>&lt;h3&gt;Fixed&lt;/h3&gt;
 &lt;ul&gt;
@@ -146,6 +160,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: LZ44biJVxrLS3MSAHykPBO8SVU2HCTR0fz9KoaRQZvLEzwTLcubgcw80vgZBhqknDGoPsjCVkQ5LxB1oSDylBQ==
-length: 21047
+edSignature: G3YXKnVUlMnZ6B5t9wfw2aqaDc5o2WkQgaF18f5AEQK9qhmM7oyDUe6/VX1g2nqMwuJBtWCoKAk6q4pOFK7yAQ==
+length: 22114
 -->
