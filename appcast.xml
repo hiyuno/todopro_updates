@@ -7,6 +7,17 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.5</title>
+      <description>&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;CloudKit sync now uploads large local backlogs in safe batches instead of exceeding the 400-record request limit. It also completes paged downloads, preserves unacknowledged changes after a failed batch, and prevents overlapping sync requests from duplicating work.&lt;/li&gt;
+&lt;li&gt;Settings → iCloud now uses a native switch and reports schema setup errors with the required CloudKit record type and container.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Wed, 16 Sep 2026 14:14:42 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.5/ToDoPro-2.0.5.dmg" sparkle:version="33" sparkle:shortVersionString="2.0.5" type="application/octet-stream" sparkle:edSignature="JE7sufWARJQhZHI6mptkTj3Xh46n0xM/kCtv2DrMFq71Ga6wT/W7FTU/jctYCxB77nbArQMa3QDuCOoDCylTAQ==" length="14101595"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.4</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
@@ -100,6 +111,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 93Bu0JCMWCPTCMbQK19EtDbAoEaeVhFUvVwcJissRaPPIqZgXWhEwfzys2QX+H4QyrS9T7ADvN6Wx0YZIRcmAQ==
-length: 16164
+edSignature: g3AhJeHvw+j8X34FKygfHr+jXSbJ48crCUvfC+djh1fKuwqr92fLuBdeBLaDA4jSFhaHyC+b/KQwnjTMtOzHDg==
+length: 17205
 -->
