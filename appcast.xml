@@ -7,6 +7,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.10</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sparkle install now stops iCloud polling and idle work, flushes in the background, and always quits. A slow save no longer cancels Close, which left the installer waiting forever.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Wed, 16 Sep 2026 23:27:10 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.10/ToDoPro-2.0.10.dmg" sparkle:version="38" sparkle:shortVersionString="2.0.10" type="application/octet-stream" sparkle:edSignature="RR/DFWcaVv5SZ4Z4tuTZ0EYLRYc3dV1JCH/lmFZyOb5Bw6AGGlkzekxVVl8FKVKRzD8YZhXJ6WizmXmQPWbMAg==" length="14352869"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.9</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -172,6 +184,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: QAqo6LFtNOidZOyT9Trxk5+qSWNwNMzRledA9tQXsgJSAbd/LPRSD8j5RvFeTrxD1z6NKjKLdJvZ/wsW8nXWAg==
-length: 23074
+edSignature: xaXP3CqDiRO5Q8w7L2aKsSz/+ePZr0tqGGa3c4hBeFM/xieuOiIOGYhcdn6FH8huOwg5oc0ECibDTjHiCzY8AQ==
+length: 23937
 -->
