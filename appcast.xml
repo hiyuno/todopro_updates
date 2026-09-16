@@ -7,6 +7,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.6</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Added an explicit bulk resolver for CloudKit journal storms (`resolveOpenSyncConflicts`): one transactional decision per entity (Keep Newest / Keep All from This Mac / Keep All from Other Device), instead of one card per historical `applicationState` revision. Settings shows a storm summary when more than 20 rows are open or any entity has more than one open row.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Work Type is chosen when editing a subtask (briefcase icon next to billable/tags), not in the board view.&lt;/li&gt;
+&lt;li&gt;Settings → iCloud attention copy now reports library snapshots, journal rows, and time overlaps set aside, so a forked `applicationState` singleton is not described as hundreds of separate decisions.&lt;/li&gt;
+&lt;li&gt;Pull now compares canonical plaintext and keeps a single open conflict per entity. Historical revisions below local HEAD go to the inbox only, so CloudKit history cannot reopen a resolved storm.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Play on a subtask and Resume now start time when the parent has no stage but an incomplete subtask does. Timer failures show the real local-database error, and an orphan open ledger session no longer leaves Resume dead when no task is running in the UI.&lt;/li&gt;
+&lt;li&gt;Live session now reloads the winning library after bulk conflict resolve so the next save isn’t a staleRevision miss.&lt;/li&gt;
+&lt;li&gt;Resolving one historical `applicationState` conflict no longer fails with UNIQUE `(entity_type, entity_id, entity_revision, operation)`: one-to-one resolve refuses when that entity has more than one open row, and bulk resolve emits a single successor at `max(known revisions)+1`.&lt;/li&gt;
+&lt;li&gt;Choosing a library snapshot during bulk resolve now materializes `applicationState` in the same transaction as the successor, so Keep Local cannot leave the library empty and Keep Remote actually becomes the local snapshot.&lt;/li&gt;
+&lt;li&gt;Settings no longer hangs while decrypting and painting every historical journal row during an `applicationState` storm.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Wed, 16 Sep 2026 18:53:13 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.6/ToDoPro-2.0.6.dmg" sparkle:version="34" sparkle:shortVersionString="2.0.6" type="application/octet-stream" sparkle:edSignature="vPSZI5xAAjDezjr4GYTk885Lb+84QFCIQ6G2jmRvQVNAk5//JOZBJ+ctuRKhDUxRVLWTFn1hHTc4BxPeElcAAw==" length="14287429"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.5</title>
       <description>&lt;h3&gt;Fixed&lt;/h3&gt;
 &lt;ul&gt;
@@ -111,6 +135,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: g3AhJeHvw+j8X34FKygfHr+jXSbJ48crCUvfC+djh1fKuwqr92fLuBdeBLaDA4jSFhaHyC+b/KQwnjTMtOzHDg==
-length: 17205
+edSignature: M+bqZXOrnXttcyBPnTFwn7ZhYquAHw5lNiqdmiV0Tfv3lZ4y9S0XTC/+WhwgEHSQ5e4PgSSL9p/858OmPeg3Cg==
+length: 19965
 -->
