@@ -7,6 +7,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.11</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sync Now shows “Connecting to iCloud…” immediately, pushes pending changes, and fetches the custom iCloud zone instead of replaying the historical journal. Catch-up of old default-zone records runs in the background, retries dropped connections, and is skipped once this Mac has already ingested remote changes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Settings no longer stays on Syncing / Connecting for minutes after Sync Now. The historical CloudKit journal no longer blocks timer presence or a connection check.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Thu, 17 Sep 2026 00:37:53 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.11/ToDoPro-2.0.11.dmg" sparkle:version="39" sparkle:shortVersionString="2.0.11" type="application/octet-stream" sparkle:edSignature="4J/KbWvGqpz2HY04XX3OYBTlSIZ7kUGOo9ZZkDMikV4PrgIgMzOh5vhs05mq/M2TjetsRmtDb0v9Lzv7ayLeCw==" length="14388863"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.10</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -184,6 +199,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: xaXP3CqDiRO5Q8w7L2aKsSz/+ePZr0tqGGa3c4hBeFM/xieuOiIOGYhcdn6FH8huOwg5oc0ECibDTjHiCzY8AQ==
-length: 23937
+edSignature: h3oCsDe/JZG1PpDLQNhIXu6OS/Ir8orYsa3oT3d4iaZ/ZUleKrb/J9eJcWpEcBKOldPuoa5IF4bYEd+74xo8Bw==
+length: 25146
 -->
