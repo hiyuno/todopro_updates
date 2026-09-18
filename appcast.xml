@@ -7,6 +7,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.12</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sync Now and timer presence now create the custom iCloud zone first, upload the latest library snapshot (not the historical backlog), then fetch zone changes. Background catch-up of the old default-zone journal waits until that live pass finishes and stops after the first successful zone fetch.&lt;/li&gt;
+&lt;li&gt;Library snapshots now converge automatically: the newer persisted copy wins (`syncedAt`, then latest task/note edit). A clock tie picks a stable device origin. Settings no longer asks for Keep Newest on every two-Mac session. Time overlaps still need a manual choice.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The Mac that stayed on Connecting / Syncing was fetching the iCloud zone before uploading projects, and the other Mac never received library state because live `applicationState` pulls did not apply. Live zone changes now adopt the newer persisted library. An already-open library conflict is resolved on the next sync instead of waiting for a tap.&lt;/li&gt;
+&lt;li&gt;A save that lands one revision behind iCloud (for example Settings while CloudKit just wrote the library) reloads the disk snapshot and keeps the in-flight settings instead of showing “Todocky Could Not Load Your Data”.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Fri, 18 Sep 2026 16:49:06 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.12/ToDoPro-2.0.12.dmg" sparkle:version="40" sparkle:shortVersionString="2.0.12" type="application/octet-stream" sparkle:edSignature="pU3+QJ1Jm8Y92hJEsp3RvDMqDX8njg0j9EwxfWfwD9r6CTOYDdCGJ/DPRpr5Px4iJyfQZpqjSgp/SrYmr/HlDA==" length="14403268"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.11</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -199,6 +216,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: h3oCsDe/JZG1PpDLQNhIXu6OS/Ir8orYsa3oT3d4iaZ/ZUleKrb/J9eJcWpEcBKOldPuoa5IF4bYEd+74xo8Bw==
-length: 25146
+edSignature: R+zCEgeK4aPhjEdF86j0q5OPJiIeiXsD8n+qbSVuaYbB4puqg3LZsxRqarsvsI00nagjhAJcQfEV+1lzxLZZCQ==
+length: 27052
 -->
