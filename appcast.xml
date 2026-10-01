@@ -7,6 +7,15 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.15</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Thu, 01 Oct 2026 20:21:36 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.15/ToDoPro-2.0.15.dmg" sparkle:version="43" sparkle:shortVersionString="2.0.15" type="application/octet-stream" sparkle:edSignature="TRejblCsLENulnAUVpBbZ9cUAXyGq5y223JIa6TMM4vyEwSFJ7PLfUOQ9E5Ugq2e3GkjQZQAOtrk+vuQQYpsCA==" length="14445157"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.14</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -234,6 +243,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: m2WyU3kfaArM3zUeUQxVrHkCdtUcXaIuRqCFJU8oPtRPrLZzEKeu5+GLbL3KNv0pdCTJUN6ZPRssuYDCAcSuDg==
-length: 28330
+edSignature: ciG10LKgLonmkiFZ8IyjD7OMR29uO+KRQ0pxewoYRv2QfzWqrnYxgiZa3yLZ4ODLMuv74KPK4uMmcL9v0JZIDg==
+length: 28969
 -->
