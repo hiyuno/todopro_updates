@@ -7,6 +7,45 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.16</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Removed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;About 1,460 lines of unused code found by Periphery, including an unused iCloud &amp;quot;recent changes&amp;quot; pull and the backup validator of the removed JSON import.&lt;/li&gt;
+&lt;li&gt;The legacy JSON backup import, which no button in Settings opened anymore (the portable backup replaced it).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Edit times never go backwards, even if the Mac&amp;#x27;s clock does, and moving a task or note on the board now counts as an edit. Both prepare for syncing each task separately.&lt;/li&gt;
+&lt;li&gt;Opening a library saved by a newer ToDoPro now says to update the app (the data was already left untouched).&lt;/li&gt;
+&lt;li&gt;The board sorts each lane once per change instead of on every read (one render on a 2,000-task library: 0.26 s → 0.02 s).&lt;/li&gt;
+&lt;li&gt;Saving the library does less repeated work (one post-save verification instead of two, the database stays open, the rotating backup is only prepared when one is due): a save on a 2,000-task library takes about half as long.&lt;/li&gt;
+&lt;li&gt;The iCloud check every 5–15 seconds no longer decrypts and republishes the library when nothing changed, which redrew the whole board each time (50 idle checks on a 2,000-task library: 2.3 s → 0.04 s). It also pauses while ToDoPro is in the background with no timer running; switching back syncs right away.&lt;/li&gt;
+&lt;li&gt;Typing in a task editor no longer rewrites the whole library on every keystroke: edits made while a save is waiting join that save (40 keystrokes: 40 writes → 1).&lt;/li&gt;
+&lt;li&gt;Choosing a workflow stage that has no tag now keeps the task&amp;#x27;s or subtask&amp;#x27;s tags in every editor. The task editor and subtask sheet used to clear them while the inline subtask editor kept them.&lt;/li&gt;
+&lt;li&gt;Whether a timer is running, and which, now comes only from the local time ledger (shared across Macs through iCloud). The board, menu bar and launcher no longer show two running timers when a task&amp;#x27;s saved status and the ledger disagree.&lt;/li&gt;
+&lt;li&gt;Pending Toggl start and stop intents are now replayed on launch and during activity checks: a matching running entry is adopted, a closed local session is published as a finished entry, and an open session is restarted (bounded retries). An entry that another timer is running is never overwritten.&lt;/li&gt;
+&lt;li&gt;A timer stopped directly in Toggl now stops in ToDoPro within seconds of switching back to ToDoPro (or waking the Mac): those moments check Toggl at most every 20 seconds. Background checks stay at once every 5 minutes.&lt;/li&gt;
+&lt;li&gt;Board rows look up their project name in a table built once per change instead of scanning every project, and opening the board no longer re-reads the collapsed project groups on every redraw.&lt;/li&gt;
+&lt;li&gt;Choosing a portable backup, a time CSV or a task template no longer reads the file on the main thread, and a file over the size limit is refused before it is read (templates: 1 MiB).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A library-deletion record arriving through iCloud, or a crafted portable backup tombstone, could erase every task, note and time session on this Mac. Nothing in ToDoPro sends one; such records are now ignored or rejected.&lt;/li&gt;
+&lt;li&gt;A task deleted on another Mac is now remembered as deleted here, and applying a task that came from another Mac no longer re-sends the whole library.&lt;/li&gt;
+&lt;li&gt;An edit made while Play, Pause or a subtask switch was being saved could be reverted, and a timer change could overwrite a library iCloud had just updated. Timer changes now commit against the exact library revision they read and re-apply only the timer fields.&lt;/li&gt;
+&lt;li&gt;Changing the work type of a subtask that was not being tracked did not save.&lt;/li&gt;
+&lt;li&gt;Edits saved right after Play, Pause or a subtask switch were silently discarded, including the Toggl running-entry id, so a later Pause or subtask completion could leave the Toggl timer running. Timer transactions now hand their saved revision to the next save.&lt;/li&gt;
+&lt;li&gt;An empty library synced from another Mac (for example a fresh install) could replace this Mac&amp;#x27;s tasks, projects and notes, either on arrival or through the automatic keep-newest pass. It now opens a sync conflict in Settings → Sync Issues instead.&lt;/li&gt;
+&lt;li&gt;Resolving an iCloud library conflict could restore an older or empty copy: &amp;quot;This Mac&amp;quot; now always means the library as it is now, and Keep Newest is unavailable when one side is empty.&lt;/li&gt;
+&lt;li&gt;An edit made just before an iCloud check could disappear and then be overwritten by the next edit. The check now waits for pending saves and never reloads over unsaved edits.&lt;/li&gt;
+&lt;li&gt;When a subtask switch was replayed after a lost Toggl response, the new start could be skipped and Toggl left with no running entry until a later check. The stop is now always replayed before the start.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Wed, 14 Oct 2026 22:00:37 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.16/ToDoPro-2.0.16.dmg" sparkle:version="44" sparkle:shortVersionString="2.0.16" type="application/octet-stream" sparkle:edSignature="MGzAp7pAfVnCbgVHOGExV9lWBJqZ2MCeALMTgediFlk+WIG2RYLPxPJBKLMLXCc+l9BlvMNuqd+TynOleHBNDQ==" length="14517850"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.15</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -243,6 +282,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: ciG10LKgLonmkiFZ8IyjD7OMR29uO+KRQ0pxewoYRv2QfzWqrnYxgiZa3yLZ4ODLMuv74KPK4uMmcL9v0JZIDg==
-length: 28969
+edSignature: FRUxbMJy6s4VgUZofi2L4eOAtP5Pwmlq6TfQso6n30AHebfxrxzhCquaCdFYl7wojo+At9Tx0ANGS3Ojmg2WDw==
+length: 34749
 -->
