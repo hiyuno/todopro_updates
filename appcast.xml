@@ -7,6 +7,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.17</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;iCloud sync could stop for good with &amp;quot;The synchronization envelope is invalid.&amp;quot; on a Mac that fell behind: it received every pending change in one page, over the limit, and rejected it on every retry. Changes now arrive in batches of 32 and a Mac catches up in one pass.&lt;/li&gt;
+&lt;li&gt;A time session from the other Mac for a task, subtask or project this Mac had not received yet rejected the whole page, including the library that would bring them, so the two Macs showed different projects. Such sessions are now kept and the page applies.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Thu, 15 Oct 2026 21:32:33 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.17/ToDoPro-2.0.17.dmg" sparkle:version="45" sparkle:shortVersionString="2.0.17" type="application/octet-stream" sparkle:edSignature="spGKNr+um6kyyNRkbfjlWHUsxrfYTwcG/tHvVHcumV1q6WB2iWkgQltkSkFT2fQoKPSOAc8xW5+t6WMjYmX1Ag==" length="14500542"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.16</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Removed&lt;/h3&gt;
@@ -282,6 +295,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: FRUxbMJy6s4VgUZofi2L4eOAtP5Pwmlq6TfQso6n30AHebfxrxzhCquaCdFYl7wojo+At9Tx0ANGS3Ojmg2WDw==
-length: 34749
+edSignature: +5yJyEAXFvjsVV3e7mMBFCfF/kDJnfPl1J5ShT9k803psiRTG/yFlD8QvmbIObU+iy9bVHFKEl+gETvC31B3CQ==
+length: 35999
 -->
