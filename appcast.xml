@@ -7,6 +7,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.18</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;While a timer runs, the Mac that started it checks Toggl once a minute even in the background (was every 5 minutes), so a timer stopped in Toggl pauses in ToDoPro within a minute and, through iCloud, on every Mac. Other Macs check when you switch to them, or every 5 minutes as a fallback. With no timer running, ToDoPro no longer calls Toggl in the background.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;After adopting the other Mac&amp;#x27;s library, the next save could fail (&amp;quot;UNIQUE constraint failed: sync_changes…&amp;quot;) and ToDoPro then refused every save until it was restarted: edits and timer changes, including a stop detected in Toggl, were not saved.&lt;/li&gt;
+&lt;li&gt;Time sessions recorded a new device identity on every launch, so after a restart a Mac no longer recognized its own sessions.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Thu, 15 Oct 2026 22:00:37 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.18/ToDoPro-2.0.18.dmg" sparkle:version="46" sparkle:shortVersionString="2.0.18" type="application/octet-stream" sparkle:edSignature="XPSTyvZRUi53Q+JlpDww6o92f2critxwiOP4smrnNJBDxUu8bEh9ftrmv/tMRfE2VIDchKENnZhPniMrcLaVDA==" length="14511326"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.17</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -295,6 +311,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: +5yJyEAXFvjsVV3e7mMBFCfF/kDJnfPl1J5ShT9k803psiRTG/yFlD8QvmbIObU+iy9bVHFKEl+gETvC31B3CQ==
-length: 35999
+edSignature: VFlwq2PUQRdMiiPMkU/4XaXeDlmaTcmaSdH7F28WNlFacMjGMhG8CVb/U/aE9oRcoF2IOOMRnu9W6LP6K9hsDg==
+length: 37510
 -->
