@@ -7,6 +7,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.19</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Pressing Play on another Mac now moves every Mac to the new task. When two Macs start timers before seeing each other&amp;#x27;s, the newest start wins everywhere: the older session ends where the newer one began, closed by the Mac that started it (or by any Mac after a day, if that Mac never comes back). If the newer task has no Toggl project, the older task&amp;#x27;s Toggl entry is stopped too.&lt;/li&gt;
+&lt;li&gt;A timer stopped in Toggl is published to the other Macs right away instead of on their next check.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A Mac kept showing the task it had started after another Mac started a different one: each Mac showed &amp;quot;the first&amp;quot; open session it found, and the old task stayed marked as running, so its Play did nothing.&lt;/li&gt;
+&lt;li&gt;Play failed with &amp;quot;This task requires a valid stage selection before tracking&amp;quot; when only another open subtask had a workflow stage.&lt;/li&gt;
+&lt;li&gt;Play failed when the running session belonged to a task this Mac had not received yet.&lt;/li&gt;
+&lt;li&gt;A fresh, never-used library could keep itself over the other Mac&amp;#x27;s library instead of adopting it.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Thu, 15 Oct 2026 22:54:38 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.19/ToDoPro-2.0.19.dmg" sparkle:version="47" sparkle:shortVersionString="2.0.19" type="application/octet-stream" sparkle:edSignature="e76FpKB0qX8rVgyr/U7dM8YwS5JtKoqr91TfWuKs4HGyQMlErsddO4lJd97x29lERk45WdqlDjQWSeQUCxogBQ==" length="14537637"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.18</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -311,6 +330,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: VFlwq2PUQRdMiiPMkU/4XaXeDlmaTcmaSdH7F28WNlFacMjGMhG8CVb/U/aE9oRcoF2IOOMRnu9W6LP6K9hsDg==
-length: 37510
+edSignature: B1lmBMXgD5X570XCW3GSY2d0qsMow91nIX0SeV3odplnuiGVm+b1g+a1ZziO+xUk8ZVMNLEpAMoq9dUTXvyoDQ==
+length: 39388
 -->
