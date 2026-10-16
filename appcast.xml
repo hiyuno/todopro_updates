@@ -7,6 +7,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.20</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The Backlog column is now called To Do, everywhere it appears (board, menus, QuickTask and Sync Finder settings).&lt;/li&gt;
+&lt;li&gt;The main board follows the new design: roomier columns and cards without outlines, a running Today card tinted in the accent color, a cleaner card header, an outlined Subtasks panel with Details tiles, and subtask rows with a new Play/Stop button. The To Do hours, the Today task count and the Today progress bar are gone.&lt;/li&gt;
+&lt;li&gt;Every task inside a card now sits on its own tile (the running one in green), project group cards drop their dividers and show the group&amp;#x27;s total as &amp;quot;Estimate Time&amp;quot;, columns get a thin black outline, and the Subtasks panel&amp;#x27;s Details tiles share the width evenly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Fri, 16 Oct 2026 17:04:43 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.20/ToDoPro-2.0.20.dmg" sparkle:version="48" sparkle:shortVersionString="2.0.20" type="application/octet-stream" sparkle:edSignature="9n038IULC04bPSQd8tx2rW7B5dJgQ4aruEcmr0bkGyx/Gs5B93NVHY55xZyhEz5q/OLDwqfFIGjWtPFnnk4BDw==" length="14534921"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.19</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -330,6 +344,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: B1lmBMXgD5X570XCW3GSY2d0qsMow91nIX0SeV3odplnuiGVm+b1g+a1ZziO+xUk8ZVMNLEpAMoq9dUTXvyoDQ==
-length: 39388
+edSignature: BS+O9l6bloY34txQb8HJxetrW6V6ekIdDInFGr02zXnhvErALl2kOoRo87/6yWNm3Nb0kUAUUEDYTcBdzXgLBQ==
+length: 40848
 -->
