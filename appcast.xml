@@ -7,6 +7,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.21</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The board header follows the new design: the controls capsule sits on its own row at the top right, with the greeting below it; the date, next meeting and current task read in semibold.&lt;/li&gt;
+&lt;li&gt;The subtask Play button uses Apple&amp;#x27;s filled play symbol.&lt;/li&gt;
+&lt;li&gt;To Do cards follow the new design: every task in a project group gets its own tile with its own move-to-Today arrow; the group&amp;#x27;s collapse chevron and the &amp;quot;move the whole group&amp;quot; row are gone (drag the group header to move it all). The column title reads &amp;quot;To do&amp;quot;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Sat, 17 Oct 2026 01:27:40 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.21/ToDoPro-2.0.21.dmg" sparkle:version="49" sparkle:shortVersionString="2.0.21" type="application/octet-stream" sparkle:edSignature="kTmbMHjzK5+LoeipT27BnuUYxLkZBm5JYB3sqAugbFsBdUuMCCKGPzLsvB6cUtMjL4AODT3/mh+CEcU/Q2J4DQ==" length="14522791"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.20</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -344,6 +358,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: BS+O9l6bloY34txQb8HJxetrW6V6ekIdDInFGr02zXnhvErALl2kOoRo87/6yWNm3Nb0kUAUUEDYTcBdzXgLBQ==
-length: 40848
+edSignature: adAv8tfu3YMUnWOLRapwsR08lfM+1z7Vc5lgy9VDjLsJfJv6J1te7enMlGPk3AqYz4bIcK3WreN0WB5KjYR9AA==
+length: 42132
 -->
