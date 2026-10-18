@@ -7,6 +7,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.22</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Hover feedback on task tiles, the move-to-Today arrow and the column header buttons; Start/Pause/Resume and subtask Play can be focused and pressed from the keyboard (Space or Return) with a focus ring.&lt;/li&gt;
+&lt;li&gt;Increase Contrast support: with System Settings &amp;gt; Accessibility &amp;gt; Display &amp;gt; Increase contrast on, text, outlines, due dates, chips, hover washes and the header controls switch to the approved high-contrast values (white primary text, brighter secondary and done text, solid gray outlines).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Start/Pause/Resume dims and stops responding while its task is syncing; the idle subtask Play button is a brighter green so it meets 3:1 contrast.&lt;/li&gt;
+&lt;li&gt;The subtask stage label is 9 pt instead of 7 pt, easier to read.&lt;/li&gt;
+&lt;li&gt;Task tiles and subtask rows have 12 pt of padding instead of 8, and a task&amp;#x27;s second line sits right under its title.&lt;/li&gt;
+&lt;li&gt;New card grays (proposal B): more separated surfaces, lighter secondary, done and overdue text so every label meets 4.5:1 contrast, and a thin outline on columns, cards and detail tiles.&lt;/li&gt;
+&lt;li&gt;Today&amp;#x27;s project group cards use the same spacing as To Do cards (padding 8, 16 between the header and the first task), and task titles sit 4 pt above their second line in both columns.&lt;/li&gt;
+&lt;li&gt;Settings, notes, Labs and QuickTask now use the same colors as the board (card grays, text and accent), with thin white outlines instead of gray borders; due dates use one rule everywhere: red once the day has passed, yellow when due today or tomorrow, green later.&lt;/li&gt;
+&lt;li&gt;Buttons across the board, editors, Settings, Labs, notes and QuickTask now share one set of controls with hover, press and disabled states: accent primary buttons (the New Tasks &amp;quot;Done&amp;quot; and quick-link &amp;quot;Save&amp;quot; are no longer white), one close button, one search field, one chip style and card outlines; clicking a subtask&amp;#x27;s title no longer completes it (use the checkbox; double-click still edits).&lt;/li&gt;
+&lt;li&gt;Type, corner and spacing cleanup across every window: off-scale text sizes snap to the type scale (sheet and Settings titles 22 pt, report and drag-preview headings 16 pt, Labs title 32 pt, QuickTask rows 16 pt, header controls 14 pt, Settings section headers 16 pt), buttons use 7 pt and fields, rows and inner cards 10 pt continuous corners, padding and gaps follow the 4 pt scale, and the board column outline is drawn inside its edge.&lt;/li&gt;
+&lt;li&gt;Done cards show the task title (16 pt, done gray) above the subtask count and total time, which now read in the same done gray; Today project group cards no longer have a collapse chevron, like To Do (groups collapsed earlier open again).&lt;/li&gt;
+&lt;li&gt;Task editor follows the Pen layout: field labels are 12 pt semibold, fields and subtask rows sit on the darkest gray with a thin outline, Toggl Project and Client share one strip, the Tags label sits above its row with a &amp;quot;+ Tag&amp;quot; chip and 11 pt tag chips, sections are 16 pt apart, the folder template picker looks like the other fields, quick links are outlined squares, and the task list uses one 10% accent selection wash with regular titles.&lt;/li&gt;
+&lt;li&gt;Settings sits on the darkest gray with its section cards on top: no divider lines under the header or between the sidebar and the content, 24 pt margins and 16 pt between the sidebar and the cards; sidebar icons line up with their 13 pt box and field labels are 12 pt semibold.&lt;/li&gt;
+&lt;li&gt;QuickTask rows sit 4 pt apart, the panel has a thin outline inside its rounded edge, the separators under the search field and above the hints are thin outlines, the complete button shows a 14 pt check, and quick-link and subtask-list icons are 12 and 14 pt.&lt;/li&gt;
+&lt;li&gt;One selection wash everywhere: selected Today tiles, QuickTask rows and the task editor list all use the same 10% accent tint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Accessibility: every icon-only button now has a VoiceOver label; small icons (quick links, gears, trash, note card gear, launcher hint) and Settings status messages meet contrast minimums; header controls, quick links, checkboxes and clear/refresh buttons have 28 pt click targets; subtask and Today checkboxes work from the keyboard and dim while syncing; the folder toast is readable; confetti and the scrolling title respect Reduce Motion.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Sun, 18 Oct 2026 08:41:14 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.22/ToDoPro-2.0.22.dmg" sparkle:version="50" sparkle:shortVersionString="2.0.22" type="application/octet-stream" sparkle:edSignature="OChTCL8zLmJtPHAfZYJ2/M/l2613peDmBn7GcXe4PwXgs3K5rP5z5ztyhfgJRgG0uY0k8syeq1Ebl/TMxUZQCQ==" length="15109484"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.21</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -358,6 +389,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: adAv8tfu3YMUnWOLRapwsR08lfM+1z7Vc5lgy9VDjLsJfJv6J1te7enMlGPk3AqYz4bIcK3WreN0WB5KjYR9AA==
-length: 42132
+edSignature: 16BjH3edFeJsQ3J9obBoj/CVYlZkfaIIAyByKY/PiHGdEGvb54w/5ky1ZHhWmyNceqI8yHhX/y+MFX2o7gYrDQ==
+length: 47363
 -->
