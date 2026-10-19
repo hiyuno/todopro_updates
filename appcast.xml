@@ -7,6 +7,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.23</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Hovering a Today task highlights the whole task instead of a pill around its title.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Mon, 19 Oct 2026 16:45:26 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.23/ToDoPro-2.0.23.dmg" sparkle:version="51" sparkle:shortVersionString="2.0.23" type="application/octet-stream" sparkle:edSignature="oaAktvN03jCW7ZzG3cdz86EIJnNCirl+9RMWiHoa5Hsa+85OZ89BlHSZbZ6unckb5ze36RJgHRqj3iTj/aLMDw==" length="15107207"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.22</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
@@ -389,6 +401,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 16BjH3edFeJsQ3J9obBoj/CVYlZkfaIIAyByKY/PiHGdEGvb54w/5ky1ZHhWmyNceqI8yHhX/y+MFX2o7gYrDQ==
-length: 47363
+edSignature: CSuRG2qplgnJmosQIjgVMGwlauRm3aWAy+4B3q0soJxko4KyF8QNJSxqf15bUwakgqIIAkzFZ182RNof6UhVCw==
+length: 48130
 -->
