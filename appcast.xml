@@ -7,6 +7,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.24</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Pause on a Mac that did not start the timer works even when the timed subtask or project has not reached that Mac&amp;#x27;s library yet (it failed silently and the timer kept running).&lt;/li&gt;
+&lt;li&gt;A Pause that cannot be recorded now shows why instead of doing nothing.&lt;/li&gt;
+&lt;li&gt;Pausing on one Mac a timer started on another no longer leaves the session with two different end times (a sync conflict) when the starting Mac notices its Toggl entry stopped: the pause is published before Toggl is stopped, and that Mac reads it before closing anything.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Tue, 20 Oct 2026 22:30:59 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.24/ToDoPro-2.0.24.dmg" sparkle:version="52" sparkle:shortVersionString="2.0.24" type="application/octet-stream" sparkle:edSignature="tUDaJ3283knlGA7BzwCeZ6ofUznpd50kxIsYIt/mSRC9XeO66H8Ee8CjeQxSzxsEMJiDcSfr3KLCVqafPCCfDg==" length="14554577"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.23</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -401,6 +415,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: CSuRG2qplgnJmosQIjgVMGwlauRm3aWAy+4B3q0soJxko4KyF8QNJSxqf15bUwakgqIIAkzFZ182RNof6UhVCw==
-length: 48130
+edSignature: DYuUbiSzN0Q5gOM2dvw1BUl5ET/bbvnBOhfQ5W5bqNO0n5iXCeNsQ6h4ml9ucpS95GmzMXUjsnjzXM0LzUNaDQ==
+length: 49385
 -->
