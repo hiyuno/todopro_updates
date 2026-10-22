@@ -7,6 +7,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.25</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Task titles are 14 pt instead of 16 on the board, the Done column, QuickTask and drag previews; section titles keep 16 pt.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Thu, 22 Oct 2026 01:19:40 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.25/ToDoPro-2.0.25.dmg" sparkle:version="53" sparkle:shortVersionString="2.0.25" type="application/octet-stream" sparkle:edSignature="DrOOmxtMPHDHkdOR9lyRHlcaziz/AVOBZHMLYiQ0DNZLmuAfP0yKrfUoWiA/9KaXX/hghtOPKjhQMMp7jXFCBA==" length="15338668"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.24</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -415,6 +427,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: DYuUbiSzN0Q5gOM2dvw1BUl5ET/bbvnBOhfQ5W5bqNO0n5iXCeNsQ6h4ml9ucpS95GmzMXUjsnjzXM0LzUNaDQ==
-length: 49385
+edSignature: ra8Vejt2PbjnoKUrjXK0MAvp9K13598yRsUDHrqLsjSvCrlHcxy9gqhJdAUGNbVTqsB/iBYRZgG72xkF4IdJBQ==
+length: 50191
 -->
