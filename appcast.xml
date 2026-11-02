@@ -7,6 +7,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.26</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Duplicate a task in the Edit Tasks window: the footer has Duplicate and Delete buttons for the selected task (also on right-click in the list); the copy keeps project, stage, tags, billable, estimate, due date, notes, quick links and subtasks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;In the task editor, Toggl Project takes the full width again with Client below it, and the Client field has a visible outline.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Mon, 02 Nov 2026 16:27:31 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.26/ToDoPro-2.0.26.dmg" sparkle:version="54" sparkle:shortVersionString="2.0.26" type="application/octet-stream" sparkle:edSignature="S+u2s/J6yBIxnjFDq99Zg9UhgPd57Guozwj3nvZPiih+T3K3AChGR1CqPvSG0H3XD5EakDFN6VIyya5/gmH+Ag==" length="14567088"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.25</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -427,6 +442,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: ra8Vejt2PbjnoKUrjXK0MAvp9K13598yRsUDHrqLsjSvCrlHcxy9gqhJdAUGNbVTqsB/iBYRZgG72xkF4IdJBQ==
-length: 50191
+edSignature: hPMv8tWayA1vyY1vukiCvYu9SstbkcGAHA9do3NsKz2Gl3a9DAm0uUXRgqjjF972h9Mx+A8lX9mx6McbkG0rAw==
+length: 51289
 -->
