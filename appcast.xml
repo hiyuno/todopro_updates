@@ -7,6 +7,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.29</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Board shortcut: record any key combination (with ⌘, ⌥ or ⌃) in Settings › General to open the board full screen from any app; press it again or Esc to go back. No permission needed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Wed, 11 Nov 2026 17:55:24 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.29/ToDoPro-2.0.29.dmg" sparkle:version="57" sparkle:shortVersionString="2.0.29" type="application/octet-stream" sparkle:edSignature="XbqZ3YCsYGjHeoK9Q2NQgOeCD6ZAFvrnLUEkC0qHgrBhOUVEoeEij1kSf3uI4slwAqYAr8w89NGAt5ll0PqYAA==" length="14636395"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.28</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -466,6 +478,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: RAVUzQ60JO8CakeqbCDTNBz2TY0oQ0lmVXvl8r7HqtNb0ba/7WF4Y3GNfeMW6qTSAN113UTqdrjROMoWLtDRCg==
-length: 53075
+edSignature: 85wo8ZySKjevfRA3p3Q3l14RCoAxI/fRDvOR/kFT5Skf5YMHB9R6kelmnJ4K2Z/VVCRkkMDF/E43vyTJPhR4Dw==
+length: 53948
 -->
