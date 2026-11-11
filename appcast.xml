@@ -7,6 +7,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.28</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Holding fn did nothing while another app was in front: the global listener now uses the Input Monitoring permission it asks for.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Wed, 11 Nov 2026 17:09:58 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.28/ToDoPro-2.0.28.dmg" sparkle:version="56" sparkle:shortVersionString="2.0.28" type="application/octet-stream" sparkle:edSignature="iLfbb6sAMel2y8GpVtmTaE/lCfUHxxcTw0aTVZPJHiGO7MDzT1C32kDvajdZS1mgdzTNVP7dSfqwk3U9OT7gDg==" length="14625456"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.27</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
@@ -454,6 +466,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 802jpU4UdQdZLFnMchTraM/SXnwcWr34n5Yzo1BiNCIZnQtfWqsoMjXkgisRALQcTe/4/EQB7o5y5lPptvW0Bw==
-length: 52263
+edSignature: RAVUzQ60JO8CakeqbCDTNBz2TY0oQ0lmVXvl8r7HqtNb0ba/7WF4Y3GNfeMW6qTSAN113UTqdrjROMoWLtDRCg==
+length: 53075
 -->
