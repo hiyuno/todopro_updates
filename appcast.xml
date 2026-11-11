@@ -7,6 +7,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.27</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Hold fn to open the board: with the new General setting on, holding the fn (Globe) key for half a second shows the board full screen on the main display, over every app, the menu bar and the Dock; Esc returns to the app you were using. Off by default; needs the Input Monitoring permission.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Wed, 11 Nov 2026 16:08:22 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.27/ToDoPro-2.0.27.dmg" sparkle:version="55" sparkle:shortVersionString="2.0.27" type="application/octet-stream" sparkle:edSignature="FgWlSROBF4b0DSgxDrzwZRfNvOnx/n+yXz4mXXPsHDgRSA0LT4qQGS0TbjaSA1/wTBSqzrvMu/w5/vNEjQQdBQ==" length="14624958"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.26</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
@@ -442,6 +454,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: hPMv8tWayA1vyY1vukiCvYu9SstbkcGAHA9do3NsKz2Gl3a9DAm0uUXRgqjjF972h9Mx+A8lX9mx6McbkG0rAw==
-length: 51289
+edSignature: 802jpU4UdQdZLFnMchTraM/SXnwcWr34n5Yzo1BiNCIZnQtfWqsoMjXkgisRALQcTe/4/EQB7o5y5lPptvW0Bw==
+length: 52263
 -->
