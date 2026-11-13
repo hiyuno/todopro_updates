@@ -7,6 +7,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.31</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The Toggl Project field is now the search box: click or type and matching projects drop down right under it, full width (↑/↓, Return, Esc).&lt;/li&gt;
+&lt;li&gt;Starting to edit a subtask, the controls its row didn&amp;#x27;t show grow in between the others and push them aside.&lt;/li&gt;
+&lt;li&gt;Editing a subtask puts the cursor at the end of its title instead of selecting all the text.&lt;/li&gt;
+&lt;li&gt;Subtask checkboxes and the Play/Stop button are as large as the $ and tag marks next to them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Fri, 13 Nov 2026 17:37:08 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.31/ToDoPro-2.0.31.dmg" sparkle:version="59" sparkle:shortVersionString="2.0.31" type="application/octet-stream" sparkle:edSignature="OeK/u6HOM0gOxdU5XPizACJryQbC8mXQx1PPkcCIKADGu0GeF6yS3QfA2a0hDg1JUFuO4FV4Q2EI599lku2BCQ==" length="14693786"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.30</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -495,6 +510,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: WTGHjItfnyi2vWff9Qq0QQk9T2E2KwaKXmP9qE2YBhIs7AcOLLJPrYhpwLoEUOvznV71HVaAYEOhHVcIAqYCDQ==
-length: 55443
+edSignature: Mh+g4dC8nk+0Ih8RKzHiD5at5d3V4nCbOxq/hLug+kwFI34ulpdxuhQbEtcnnAzoGdNn1wp6ErMtJsu7ZAgCAw==
+length: 56638
 -->
