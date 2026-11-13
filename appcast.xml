@@ -7,6 +7,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.30</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The subtask Play and Stop buttons match the checkbox: the same thin circle symbols at the same size (dark green at rest, accent while running).&lt;/li&gt;
+&lt;li&gt;The task editors no longer show a Client field when Toggl is on (the client comes from Toggl), and the Toggl Project area uses the same gray as the rest of the window.&lt;/li&gt;
+&lt;li&gt;Editing a subtask no longer makes its row taller or moves its title: the controls keep the row&amp;#x27;s size and order (stage, $, tag, then work type where Play was), only an accent outline appears, and the switch crossfades.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The board shortcut no longer accepts ⌘ plus a letter or number (like ⌘C): it would take that key away from every app. A saved one is turned off until you record one with ⌥ or ⌃.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Fri, 13 Nov 2026 17:12:40 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.30/ToDoPro-2.0.30.dmg" sparkle:version="58" sparkle:shortVersionString="2.0.30" type="application/octet-stream" sparkle:edSignature="B8z6/zAimhCWBaITzgoD6Hy3Lqq4kAg4Cbgb3BCbDB0K4W2MOTlaONTwG9WgRpPaSowHlf2TSHooXvZfwvc1Cg==" length="14677801"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.29</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
@@ -478,6 +495,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 85wo8ZySKjevfRA3p3Q3l14RCoAxI/fRDvOR/kFT5Skf5YMHB9R6kelmnJ4K2Z/VVCRkkMDF/E43vyTJPhR4Dw==
-length: 53948
+edSignature: WTGHjItfnyi2vWff9Qq0QQk9T2E2KwaKXmP9qE2YBhIs7AcOLLJPrYhpwLoEUOvznV71HVaAYEOhHVcIAqYCDQ==
+length: 55443
 -->
