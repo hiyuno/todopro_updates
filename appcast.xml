@@ -7,6 +7,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.32</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Window › Show Board Overlay opens and closes the full-screen board from the menu bar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The board overlay keeps the frost across the whole screen but places the board in the central 75%, and shows no window edge, corners or shadow.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Mon, 16 Nov 2026 17:05:38 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.32/ToDoPro-2.0.32.dmg" sparkle:version="60" sparkle:shortVersionString="2.0.32" type="application/octet-stream" sparkle:edSignature="vZBh1iHaWR3IFE9swmVXvdINctff9dtzN9JSE54GgLtkzCTEZDdhT/K+X0JVDZcUhc2WNKciUbuUKm8pyyp+Bw==" length="14705401"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.31</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Changed&lt;/h3&gt;
@@ -510,6 +525,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Mh+g4dC8nk+0Ih8RKzHiD5at5d3V4nCbOxq/hLug+kwFI34ulpdxuhQbEtcnnAzoGdNn1wp6ErMtJsu7ZAgCAw==
-length: 56638
+edSignature: rKdiEIu2s+aH7IgCLS7yp9vO+W9RJeKYOV3RJupFFTHE6jdKWrjLg2uiAlPcgeVDR7ewuSJUuMfmTvtXUI/uDg==
+length: 57597
 -->
