@@ -7,6 +7,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.33</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MCP server (Settings → MCP, off by default): AI clients on this Mac such as Claude can list your Toggl projects, workflow stages and tasks, and add tasks with subtasks under an existing Toggl project. It listens only on 127.0.0.1:47823, needs a token kept in this Mac&amp;#x27;s Keychain (&amp;quot;Copy Claude Code Command&amp;quot; puts the setup command on the clipboard for a minute), and every request that adds tasks asks you in ToDoPro first. Three declined requests in ten minutes turn it off.&lt;/li&gt;
+&lt;li&gt;MCP tools for setting up a production: `list_folder_templates` and `create_folders`, which creates `&amp;lt;Projects&amp;gt;/&amp;lt;year&amp;gt;/&amp;lt;project&amp;gt;/&amp;lt;piece&amp;gt;/…` from a folder template per piece inside the Projects folder chosen in Settings › New Project Folder. It only ever adds missing empty folders: nothing is deleted, renamed, moved or overwritten, symbolic links and files on the path stop it, and it is limited to 30 pieces and 200 folders per request.&lt;/li&gt;
+&lt;li&gt;Folder templates can say what they are used for (Settings › New Project Folder › Used For), and &amp;quot;Add WALO Template&amp;quot; adds a &amp;quot;WALO Piece&amp;quot; template (01_Assets … 06_Final_Files) if you don&amp;#x27;t have one.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MCP writes are preview-first: `create_project_tasks` and `create_folders` only return a preview of exactly what would be added unless the request says `confirm: true`, and then ToDoPro still asks you in a dialog.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Thu, 19 Nov 2026 03:58:14 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.33/ToDoPro-2.0.33.dmg" sparkle:version="61" sparkle:shortVersionString="2.0.33" type="application/octet-stream" sparkle:edSignature="FtLPWCDbBslcPZAN6mOVq43zhyz6poofOGrs0tAD8InQji8oUDPOcrC54KiCSo8EZguLtKLn0N+1BVoWpDGgAA==" length="16828787"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.32</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
@@ -525,6 +542,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: rKdiEIu2s+aH7IgCLS7yp9vO+W9RJeKYOV3RJupFFTHE6jdKWrjLg2uiAlPcgeVDR7ewuSJUuMfmTvtXUI/uDg==
-length: 57597
+edSignature: ZfK13mJ7KNFa9EiIfqdJaT7gJExAwLHrZ46VP+dvW71SHthH52j+9FBTcoFiaaStG/26g9YeIX7wWow2OgWXDw==
+length: 59829
 -->
