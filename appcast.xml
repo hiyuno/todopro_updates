@@ -7,6 +7,18 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.35</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MCP: read-only `list_task_history` (every task, paged, with project, stage, tags, dates, estimate and the minutes tracked in the local time ledger) and `get_task_detail` (ordered subtasks and every timer session with stage and work type), so WAILO can learn WALO&amp;#x27;s processes from real work. Notes are never returned and reading never asks for confirmation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Thu, 19 Nov 2026 14:22:40 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.35/ToDoPro-2.0.35.dmg" sparkle:version="63" sparkle:shortVersionString="2.0.35" type="application/octet-stream" sparkle:edSignature="mLmxjIQ17m0SKBS9Oi2fBmZTZDTKpe2wdU2bfvG6to7cpNeBEH9TOgQYfqt+GUhx6m39Wzncu8psxpPerhIYCw==" length="16905767"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.34</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;h3&gt;Fixed&lt;/h3&gt;
@@ -558,6 +570,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: A8FyiNim8bMgtusy1msBZY8AzQhPo0IT8KvV/LffswByJRXnMMXE8HDmZt5e6ptrKPctdgv0iIDHWtVfSdXlDQ==
-length: 61166
+edSignature: i5427UmQXuUiKm0axodkMSARikvHL8qs8md9rlGFSjAlfT4Ip1lwPBKj7aZUZtt9CeUDUVcAhqUHGinAGWbZCQ==
+length: 62215
 -->
