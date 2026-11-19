@@ -7,6 +7,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.34</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MCP: a second Claude session, a reconnect or `claude mcp list` no longer fails with &amp;quot;-32600 Server is already initialized&amp;quot;; every client can initialize against the running server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The MCP server now listens on 127.0.0.1:47824 instead of 47823, so it no longer collides with the original Todocky app&amp;#x27;s MCP server. Re-copy the Claude Code command from Settings › MCP after updating.&lt;/li&gt;
+&lt;li&gt;&amp;quot;Copy Claude Code Command&amp;quot; now registers the server with `--scope user`, so every Claude Code session sees it, not only the folder where the command was pasted.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Thu, 19 Nov 2026 04:33:32 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.34/ToDoPro-2.0.34.dmg" sparkle:version="62" sparkle:shortVersionString="2.0.34" type="application/octet-stream" sparkle:edSignature="vmHN1Iwl0k5fZcz5B0MnXEhnpIRQ4Er8ryc+sgN3Jj3W2uksdCk0qaUWEE0R3XHCOq+AYS5JZURaKer/JwNaCw==" length="16828958"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.33</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
@@ -542,6 +558,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: ZfK13mJ7KNFa9EiIfqdJaT7gJExAwLHrZ46VP+dvW71SHthH52j+9FBTcoFiaaStG/26g9YeIX7wWow2OgWXDw==
-length: 59829
+edSignature: A8FyiNim8bMgtusy1msBZY8AzQhPo0IT8KvV/LffswByJRXnMMXE8HDmZt5e6ptrKPctdgv0iIDHWtVfSdXlDQ==
+length: 61166
 -->
