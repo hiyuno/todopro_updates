@@ -7,6 +7,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ToDoPro macOS updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.0.36</title>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Folder templates have two levels: shared folders created once in the project folder (next to the piece folders) and folders inside each piece. Each top-level folder can be created always, only with 2+ pieces or only with 1 piece; Settings › New Project Folder edits both levels and the condition.&lt;/li&gt;
+&lt;li&gt;MCP: `propose_folder_template` lets an AI client propose a new template or a change to an existing one (preview with diff first); nothing is saved until the user approves it in a ToDoPro dialog, and an update keeps the template&amp;#x27;s id.&lt;/li&gt;
+&lt;li&gt;Settings › New Project Folder flags templates without &amp;quot;Used For&amp;quot;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;MCP: `list_folder_templates` returns `root_folders` and `piece_folders` as `[{path, when}]` (replaces `folders`/`folder_count`), plus `used_for_missing`; `create_folders` creates the shared root folders once per call (union across templates) and lists them in `root_folders`.&lt;/li&gt;
+&lt;li&gt;&amp;quot;Add WALO Template&amp;quot; now adds 01_Footage … 05_Final_Files per piece, with 01_Assets shared at the project root when there are several pieces and inside the piece when there is one.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;</description>
+      <sparkle:descriptionFormat>html</sparkle:descriptionFormat>
+      <pubDate>Thu, 19 Nov 2026 14:46:54 +0000</pubDate>
+      <enclosure url="https://github.com/hiyuno/todopro_updates/releases/download/v2.0.36/ToDoPro-2.0.36.dmg" sparkle:version="64" sparkle:shortVersionString="2.0.36" type="application/octet-stream" sparkle:edSignature="9PH7OIfQsE+VQqUWXyQYN4FcVU0ZqN3lvYGBOKsYokL6QPehrVvtJb8hKP8jy27GFkpWiReLPcKhCzfyR5EtBQ==" length="17064138"></enclosure>
+    </item>
+    <item>
       <title>Version 2.0.35</title>
       <description>&lt;h3&gt;Added&lt;/h3&gt;
 &lt;ul&gt;
@@ -570,6 +588,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: i5427UmQXuUiKm0axodkMSARikvHL8qs8md9rlGFSjAlfT4Ip1lwPBKj7aZUZtt9CeUDUVcAhqUHGinAGWbZCQ==
-length: 62215
+edSignature: 56jFzNBo5wh2A89+H+M5IUugAXDPbXa/mAvwKKUF+FghT4qnHn590tEYA12DhcEtAANnuZhUwN7wlXg7yGdeBg==
+length: 64109
 -->
